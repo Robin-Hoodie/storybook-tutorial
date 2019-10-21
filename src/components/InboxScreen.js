@@ -11,7 +11,7 @@ export const InboxScreen = ({error}) => {
                 <div className="wrapper-message">
                     <span className="icon-face-sad" />
                     <div className="title-message">Oh no!</div>
-                    <div className="subtitle-message">Something went wrong</div>
+                    <div className="subtitle-message">Something went wrong: {error}</div>
                 </div>
             </div>
         )
